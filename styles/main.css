@@ -1,0 +1,31 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+header {
+    display:fixed;
+    width:100%;
+    top: 0;
+    z-index: 1;
+}
+
+main {
+    background-color:#3CDBC0;
+}
+nav {
+    display:flex;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: center;
+    font-size:1rem;
+}
+
+.logo {
+    text-align: center;
+}
+ul{
+    list-style:none;
+}
