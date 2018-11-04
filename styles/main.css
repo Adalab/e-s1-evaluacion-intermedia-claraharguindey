@@ -53,17 +53,16 @@ li {
 
 }
 .contenedor-texto {
-    display:relative;
+    position:relative;
     width: 100%;
-}
-.titulo-main {
-    display: absolute;
+    position: absolute;
     text-align: center;
+    color:white;
+    width: 400px;
     top:50%;
     left: 50%;
     transform: translate(-50%,-50%);
     font-size: 30px;
-    color:white;
     text-align: center;
     
 }
